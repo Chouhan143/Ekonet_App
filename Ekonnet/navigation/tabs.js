@@ -29,7 +29,7 @@ const Tabs = () => {
     <Tab.Navigator
       screenOptions={{
         tabBarStyle: {
-          height: 125,
+          height: 100,
           backgroundColor: COLORS.primary,
           borderTopColor: 'transparent',
         },
