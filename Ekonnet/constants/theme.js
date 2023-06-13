@@ -47,6 +47,22 @@ export const SIZES = {
     width,
     height
 };
+export const sizes = {
+    width,
+    height,
+    title: 32,
+    h2: 24,
+    h3: 18,
+    body: 14,
+    radius: 16,
+  };
+
+  export const spacing = {
+    s: 8,
+    m: 18,
+    large: 24,
+    xl: 40,
+  };
 export const FONTS = {
     largeTitle: { fontFamily: "Roboto-Black", fontSize: SIZES.largeTitle },
     h1: { fontFamily: "Roboto-Black", fontSize: SIZES.h1, lineHeight: 36 },

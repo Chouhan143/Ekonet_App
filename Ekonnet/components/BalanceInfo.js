@@ -25,6 +25,7 @@ const BalanceInfo = ({title, displayAmount, changePer, containerStyle}) => {
         style={{
           flexDirection: 'row',
           alignItems: 'flex-end',
+          paddingVertical:5
         }}>
         {changePer !== 0 && (
           <Image
@@ -67,28 +68,7 @@ const BalanceInfo = ({title, displayAmount, changePer, containerStyle}) => {
       </View>
 
       {/* Button */}
-      <View
-        style={{
-          flexDirection: 'row',
-          marginTop: 30,
-          marginBottom:-15,
-          paddingHorizontal: SIZES.radius,
-        }}>
-        <IconTextButton
-          label="Transfer"
-          icon={icons.send}
-          containerStyle={{flex: 1, height: 40, marginRight: SIZES.radius}}
-          onPress={() => console.log('transfer')}
-          
-        />
-
-        <IconTextButton
-          label="withdraw"
-          icon={icons.withdraw}
-          containerStyle={{flex: 1, height: 40}}
-          onPress={() => console.log('withdraw')}
-        />
-      </View>
+     
     </View>
   );
 };
